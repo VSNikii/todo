@@ -1,0 +1,35 @@
+.modalWindow {
+
+    z-index: 1005;
+    width: 500px;
+    
+    .search {
+        border: 1px solid var(--border-color);
+        color: var(--text-color);
+        width: 440px;
+        font-size: 24px;
+    }
+    .cancel{
+        color: var(--text-color);
+        background-color: #fff;
+        border: 1px solid var(--border-color);
+        border-radius: 0.5em;
+        padding: 10px 25px;
+        font-weight: 700;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .apply{
+        color: #fff;
+        background-color: var(--background-btn);
+        border: 0;
+        border-radius: 0.5em;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 25px;
+        cursor: pointer;
+    }
+    .modalWindow__buttons{
+        margin-top: 200px;
+    }
+}
